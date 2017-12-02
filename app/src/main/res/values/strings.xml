@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Tu Exchange</string>
+    <string name="change_money">อัตราแลกเปลี่ยน</string>
+
+    <string name="usd">กรอก ดอลล่าร์</string>
+    <string name="thb">กรอก บาท</string>
+
 </resources>
