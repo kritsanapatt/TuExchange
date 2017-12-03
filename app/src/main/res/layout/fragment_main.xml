@@ -32,6 +32,7 @@
             android:layout_height="wrap_content" />
 
        <RadioGroup
+           android:id="@+id/ragMoney"
            android:padding="@dimen/padding"
            android:orientation="vertical"
            android:layout_width="match_parent"
@@ -39,6 +40,7 @@
 
            <!--usd to thb-->
            <RadioButton
+               android:id="@+id/radUSD"
                android:textSize="@dimen/h2"
                android:textColor="@color/colorPrimaryDark"
                android:textStyle="italic"
@@ -48,7 +50,7 @@
 
            <!--thb to usd-->
            <RadioButton
-               android:layout_marginLeft="@dimen/margin"
+               android:id="@+id/radTHB"
                android:textSize="@dimen/h2"
                android:textColor="@color/colorPrimaryDark"
                android:textStyle="italic"
@@ -72,6 +74,7 @@
 
          <!--TextField-->
          <EditText
+             android:id="@+id/edtMoney"
              android:textColor="@color/colorPrimaryDark"
              android:hint="@string/usd"
              android:layout_width="match_parent"
@@ -83,6 +86,7 @@
 
         <!--button exchange-->
         <Button
+            android:id="@+id/btnExchange"
             android:text="EXCHANGE"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
